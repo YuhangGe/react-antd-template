@@ -8,4 +8,6 @@
 
 * 使用了一个即不是 Redux 也不是 Flex 的简单够用的数据框子，并且整合了 API 请求。请查阅 `common` 目录下的源码。
 
+* 使用了更灵活精简的表单验证方式。请查阅 `component/Home.jsx` 文件。
+
 * 使用 Apack-server 工具，轻松解决数据 mock，远程联调等工作；更多细节请参阅 [apack-server 使用文档](https://www.npmjs.com/package/apack-server)。
