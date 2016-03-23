@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "result|1-10": [{
+    "id|8": "@character('number')",
+    "name": "@CNAME"
+  }]
+}

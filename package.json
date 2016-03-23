@@ -1,0 +1,24 @@
+{
+  "name": "react-antd-template",
+  "version": "0.0.1",
+  "description": "React Ant Design Template",
+  "entry": {
+    "index": "./src/entry/index.jsx"
+  },
+  "dependencies": {
+    "antd": "~0.12.12",
+    "jquery-ajax": "^2.1.4",
+    "react": "~0.14.0",
+    "react-dom": "~0.14.0",
+    "react-router": "~2.0.0"
+  },
+  "devDependencies": {
+    "apack-server": "^1.0.0",
+    "apack-build": "^1.0.0"
+  },
+  "scripts": {
+    "dev": "apack-server --browser-history --live-reload --mock ./mock",
+    "dev:remote": "apack-server --remote https://myserver.com",
+    "build": "apack-build -o ./dist"
+  }
+}
