@@ -1,6 +1,6 @@
 {
   "name": "react-antd-template",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React Ant Design Template",
   "entry": {
     "index": "./src/entry/index.jsx"
