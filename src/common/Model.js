@@ -12,6 +12,20 @@ function bind(lis) {
       lis.setState({});
     }
   }
+
+  let cwu;
+  if (lis.componentWillUnmount) {
+    let old = lis.componentWillUnmount.bind(lis);
+    cwu = () => {
+      old();
+      this.$.unbind(lis);
+    }
+  } else {
+    cwu = () => {
+      this.$.unbind(lis);
+    };
+  }
+  lis.componentWillUnmount = cwu;
   return this;
 }
 
