@@ -14,7 +14,7 @@ const Header = React.createClass({
           {/* 这里是右侧内容 */}
           <ul className="header-nav">
             <li><Icon type="question-circle-o"/><Link to="/help" style={{marginLeft: 8}}>帮助</Link></li>
-            <li><img src="https://g01.alibaba-inc.com/tfscom/TB1oRxzIpXXXXXaXVXXXXXXXXXX.tfsprivate_24x24"/>geyuhang.pt
+            <li>xiaoge
             </li>
           </ul>
         </Col>

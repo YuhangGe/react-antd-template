@@ -1,6 +1,5 @@
 import React from 'react';
-import Icon from 'antd/lib/icon';
-import Alert from 'antd/lib/alert';
+import { Icon, Alert } from 'antd';
 
 const DEFAULT_LOADING_TIP = (
   <div style={{textAlign: 'center'}}>

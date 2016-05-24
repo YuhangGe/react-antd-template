@@ -1,8 +1,5 @@
 import './home.less';
-import Message from 'antd/lib/message';
-import Form from 'antd/lib/form';
-import Input from 'antd/lib/input';
-import Button from 'antd/lib/button';
+import { Message, Form, Input, Button } from 'antd';
 import ValidateMixin from '../common/ValidateMixin.js';
 import React from 'react';
 const FormItem = Form.Item;

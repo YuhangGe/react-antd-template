@@ -2,7 +2,7 @@ import './layout.less';
 import React from 'react';
 import Nav from './Nav';
 import Header from './Header';
-import Breadcrumb from 'antd/lib/breadcrumb';
+import { Breadcrumb } from 'antd';
 import { Link } from 'react-router';
 import { getMenuItemByKey } from './util.js';
 

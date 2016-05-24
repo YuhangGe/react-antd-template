@@ -5,19 +5,25 @@
   "entry": {
     "index": "./src/entry/index.jsx"
   },
+  "externals": {
+    "antd": "antd",
+    "react": "React",
+    "react-dom": "ReactDOM"
+  },
   "dependencies": {
-    "antd": "~0.12.12",
+    "antd": "^1.1.0",
     "jquery-ajax": "^2.1.4",
-    "react": "~0.14.0",
-    "react-dom": "~0.14.0",
-    "react-router": "~2.0.0"
+    "koa-static": "^2.0.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1"
   },
   "devDependencies": {
     "apack-server": "^1.0.0",
     "apack-build": "^1.0.0"
   },
   "scripts": {
-    "dev": "apack-server --browser-history --live-reload --mock ./mock",
+    "dev": "apack-server --config ./dev.js --browser-history --live-reload --mock ./mock",
     "dev:remote": "apack-server --remote https://myserver.com",
     "build": "apack-build -o ./dist"
   }

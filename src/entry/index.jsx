@@ -1,5 +1,3 @@
-import 'antd/lib/index.css';
-
 import React from 'react';
 import ReactDom from 'react-dom';
 import { Router, Route, Redirect, browserHistory } from 'react-router';
@@ -9,7 +7,7 @@ import App from '../layout/App.jsx';
 import Home from '../component/Home.jsx';
 import Setting from '../component/Setting.jsx';
 import Download from '../component/Download.jsx';
-import Message from 'antd/lib/message';
+import { Message } from 'antd';
 import jQuery from 'jquery-ajax';
 
 Remote.registerRequest(jQuery.ajax, {
